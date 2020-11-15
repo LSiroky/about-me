@@ -1,0 +1,73 @@
+/* the HTML5 structural tags work in IE*/
+article, aside, figure, footer, header, nav, section { 
+	display: block;
+}
+html {
+	background-image: -moz-linear-gradient(top, white 0%, black 100%);
+	background: -webkit-linear-gradient(top, white 0%, black 100%);
+	background: -o-linear-gradient(top, white 0%, black 100%);
+	background: -linear-gradient(top, white 0%, black 100%);
+	background-repeat: repeat-x;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 87.5%;
+	width: 962px;
+	background-color: #EBF0E6;
+	margin: 15px auto;
+	padding: 15px 25px;
+	border: 1px solid black;
+}
+body img {
+	padding-top: 1em;
+	margin-left: 281px;
+}
+
+
+h1 { font-size: 200%; }
+
+
+/* the styles for the navigation bar */
+nav {
+	clear: left;
+	margin: 0;
+	padding: 0;
+	border-top: 3px solid black;
+}
+nav ul {
+	margin-left: 300px;
+	margin-bottom: .5em;
+	list-style: none;
+	padding: .5em .5em 0 0;
+}
+nav li {
+	display: inline;
+	padding: 0 .5em;
+	border-right: 2px solid black;
+	font-weight: bold;
+}
+nav a.current { color: black; }
+
+/* the styles for the header */
+header {
+	padding: 0 1em;
+	border-bottom: 2px solid black;
+}
+header h1 {
+	color: #246B47;
+	text-shadow: 2px 3px 0 #999999;
+	margin-left: 340px;
+	margin-bottom: 0.5em;
+}
+
+/* styles for the footer */
+footer {
+	clear: both;
+	margin-top: 2em;
+	border-top: 2px solid black;
+	padding-top: 0.7em;
+}
+footer p {
+	font-size: 80%;
+	text-align: right;
+}
